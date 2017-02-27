@@ -1,4 +1,4 @@
 #### REACT ROUTER 
 
-Welcome React reducX simple starter KIt!
+Welcome React redux simple starter KIt!
 
