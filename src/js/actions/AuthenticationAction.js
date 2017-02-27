@@ -1,6 +1,6 @@
-import { CHANGE_AUTH } from 'types';
+import { CHANGE_AUTH } from './types';
 
-export default (isLoggedIn) => {
+export const isAuthenticated = (isLoggedIn) => {
   return {
     type: CHANGE_AUTH,
     isLoggedIn
