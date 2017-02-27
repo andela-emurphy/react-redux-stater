@@ -1,12 +1,17 @@
 {
-  "name": "react-redux starter",
+  "name": "react-redux-starter",
   "version": "0.0.0",
   "description": "A simple react-redux starter",
   "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "node_modules/.bin/webpack --config webpack.config.js --watch",
+    "serve": "node_modules/.bin/webpack-dev-server",
+    "start": "node server.js"
+  },
   "repository": "",
   "author": "Enaho Murphy<murphy.enaho@andela.com >",
   "dependencies": {
-    "dependencies": {
     "axios": "^0.15.3",
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
@@ -25,7 +30,8 @@
     "redux-immutable-state-invariant": "^1.2.4",
     "redux-thunk": "^2.2.0",
     "sass-loader": "^6.0.0",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
